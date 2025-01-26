@@ -1,0 +1,63 @@
+@media only screen and (min-width: 700px){
+    body{
+        background-color: #FFF8EE;
+    }
+    
+    .PreNav{
+        background-color: #CC3333;
+        height: 25px;
+    }
+    .PreNavigacije{
+        display: flex;
+        text-decoration: none;
+        list-style-type: none;
+        gap: 30px;
+        padding-top: 2px;
+        justify-content: center;
+        align-items: center;
+    }
+    .PreNavLi img{
+        width: 10px;
+    }
+    nav {
+        background-color:#FFF8EE;
+    }
+    .ListaNavigacija{
+        list-style-type: none;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+    }
+    .LinkNavigacija{
+        text-align: justify;
+        color: #2A435D;
+        font-family: Roboto;
+        text-decoration: none;
+    }
+    img{
+        width: 120px;
+    }
+    .topnav{
+        display: none;
+    }
+    a:visited{
+        color: #244970;
+    }
+    a:hover{
+        color: #CC3333;
+    }
+
+    footer{
+        display: flex;
+        background-color: #244970;
+        color: wheat;
+        justify-content: center;
+        gap: 20px;
+        font-size: 14px;
+        position: relative;
+        bottom: 0;
+    }
+   
+}

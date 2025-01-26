@@ -1,0 +1,107 @@
+*{
+    max-width: 100%;
+    padding: 0%;
+    margin: 0;
+}
+
+body{
+    background-color: #FFF8EE;
+}
+@media only screen and (max-width: 700px){
+    .PreNav{
+        background-color: #CC3333;
+    }
+    .PreNavigacije{
+        display: flex;
+        text-decoration: none;
+        list-style-type: none;
+        gap: 30px;
+        padding-top: 2px;
+        margin-left: 10%;
+    }
+    .PreNavLi img{
+        width: 10px;
+    }
+    nav {
+        background-color:#FFF8EE;
+    }
+    .ListaNavigacija{
+        display: none;
+    } 
+    .LinkNavigacija{
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-family: Roboto;
+        padding: 5px;
+        gap: 10px
+    }
+    .topnav{
+        overflow: hidden; 
+        width: 100%;
+        position: relative;
+    }
+    .topnav a{
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        font-family: Roboto, sans-serif;
+        text-align: center;
+        color:#244970;
+    }
+    .topnav a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 0;
+    }
+    a.icon img{
+        width: 30px;
+    }
+    .topnav a:hover{
+        background-color: #acacac;
+        color:#bb2828;
+    } 
+    img{
+        width: 50px;
+        margin-left: 10px;
+    } 
+    #myLinks{
+        display: none;
+        background-color: rgba(0,0,0,0.8);
+        position: fixed;
+        top: 50px; 
+        left: 0;
+        width: 100%;
+        text-align: center;
+        z-index: 999;
+    }
+    #myLinks a{
+        padding: 12px;
+        font-size: 18px;
+        color: white;
+    }
+
+    #myLinks a:hover{
+        background-color: #acacac;
+        color: #bb2828;
+    }
+
+    #myLinks.active{
+        display: block;
+    }
+
+    footer{
+        display: flex;
+        background-color: #244970;
+        color: wheat;
+        justify-content: center;
+        gap: 20px;
+        font-size: 14px;
+        position: relative;
+        bottom: 0;
+    }
+    
+}

@@ -1,0 +1,95 @@
+#Omotac{
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    /* padding: 20px; */
+    flex: 1;
+}
+
+#Tekst > p{
+    padding: 30px;
+}
+
+#slika img {
+    width: 500px;
+
+}
+
+#OmotacZaDrugiDeo{
+    margin-top: 25px;
+    max-width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+    flex: 1;
+}
+
+footer{
+    padding: 10px;
+    background-color: #244970;
+    color: wheat;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    position: relative;
+    bottom: 0;
+}
+
+footer img{
+    height: auto;
+    margin-bottom: 15px;
+}
+.static{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    bottom: 0;
+    font-size: 14px;
+    margin-top: 90px;
+    margin-left: -540px;
+}
+
+
+@media only screen and (max-width: 700px){
+    #slika{
+        display: none;
+    }
+    #Omotac{
+        grid-template-columns: 1fr;
+    }
+    #OmotacZaDrugiDeo{
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+    #Tekst{
+        display: flex;
+        justify-content: center;
+    }
+
+    footer{
+        display: flex;
+        background-color: #244970;
+        color: wheat;
+        justify-content: center;
+        gap: 20px;
+        font-size: 14px;
+        position: relative;
+        bottom: 0;
+    }
+    footer img{
+        display: none;
+    }
+    address{
+        display: none;
+    }
+    .static{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+}
