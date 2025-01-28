@@ -30,10 +30,12 @@
 .baner h2{
     color: black;
     font-family: Roboto, serif;
+    font-size: 30px;
 }
 .baner p{
     color: black;
     font-family: Roboto, serif;
+    font-size: 20px;
 }
 
 .Tabela1{
@@ -59,3 +61,24 @@
 #slikaTabela{
     width: 80%; 
 }
+#tekstIstorija{
+    display: block;
+    margin-top: 35px;
+    max-width: 100%;
+    padding: 15px;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+#tekstIstorija h3{
+    font-size: 20px;
+}
+
+#tekstIstorija p{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
