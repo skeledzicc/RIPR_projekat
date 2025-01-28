@@ -1,6 +1,6 @@
 *{
     max-width: 100%;
-    padding: 0%;
+    padding: 0;
     margin: 0;
 }
 
@@ -17,13 +17,14 @@ body{
         list-style-type: none;
         gap: 30px;
         padding-top: 2px;
-        margin-left: 10%;
+        justify-content: center;
     }
     .PreNavLi img{
         width: 10px;
     }
     nav {
         background-color:#FFF8EE;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
     .ListaNavigacija{
         display: none;
@@ -68,25 +69,49 @@ body{
         width: 50px;
         margin-left: 10px;
     } 
+    #Ikonica{
+        margin: 0;
+        margin-bottom: 2px;
+    }
+    #padajuciMeniIcon{
+        margin-top: 10px;
+    }
     #myLinks{
         display: none;
         background-color: rgba(0,0,0,0.8);
         position: fixed;
-        top: 50px; 
+        top: 65px; 
         left: 0;
         width: 100%;
         text-align: center;
         z-index: 999;
     }
     #myLinks a{
+        position: relative;
         padding: 12px;
         font-size: 18px;
         color: white;
     }
+    #myLinks a::before{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 6px;
+        background-color: #CC3333;
+        transform: scaleX(0);
+        transform-origin: bottom left;
+        transition: transform 0.5s ease-out;
+    }
+
+    #myLinks a:hover::before{
+        transform: scaleX(1);
+    }
 
     #myLinks a:hover{
         background-color: #acacac;
-        color: #bb2828;
+        font-size: 20px;
     }
 
     #myLinks.active{
@@ -95,13 +120,14 @@ body{
 
     footer{
         display: flex;
-        background-color: #244970;
+        background-color: #183553;
         color: wheat;
         justify-content: center;
         gap: 20px;
         font-size: 14px;
-        position: relative;
+        position: fixed;
         bottom: 0;
+        max-width: 100%;
     }
     
 }

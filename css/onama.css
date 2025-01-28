@@ -1,0 +1,61 @@
+.baner{
+    margin-top: 10px;
+    width: 100%;
+    min-height: 30vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.baner::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image:url('../Slike/oNamaBaner.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.60;
+    z-index: -1;
+}
+
+.baner h2{
+    color: black;
+    font-family: Roboto, serif;
+}
+.baner p{
+    color: black;
+    font-family: Roboto, serif;
+}
+
+.Tabela1{
+    margin-top: 20px;
+    margin-left: 200px; 
+    display: flex;
+    border: 2px solid #d20000;
+    border-radius: 10px;
+    border-collapse: collapse;
+    padding: 15px;
+    width: 80%;
+}
+
+.Tabela1 td{
+    font-family: Roboto, sans-serif;
+    padding: 15px;
+    vertical-align: top;
+}
+#kolonaSlika{
+    width: 40%;
+}
+
+#slikaTabela{
+    width: 80%; 
+}

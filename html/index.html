@@ -13,22 +13,22 @@
     <link rel="stylesheet" href="../css/index.css" type="text/css" />
 </head>
 <body>
-    <nav class="PreNav">
+    <header class="PreNav">
         <ul class="PreNavigacije">
             <li>
-                <a class="PreNavLi" href=""> <img src="../Slike/watch_icon.png"></a>
+                <a class="PreNavLi" href=""> <img id="Ikonica" src="../Slike/watch_icon.png"></a>
             </li>
             <li>
                 <p>8:00 - 23:00</p>
             </li>
             <li>
-                <a class="PreNavLi" href=""> <img src="../Slike/phone_icon.png"> </a>
+                <a class="PreNavLi" href=""> <img id="Ikonica" src="../Slike/phone_icon.png"> </a>
             </li>
             <li>
                 <p> 0230 435268 </p>
             </li>
         </ul>
-    </nav>
+    </header>
     <nav>
         <ul class="ListaNavigacija">
             <li> <a class="LinkLogo" href="index.html" alt=""> <img src="../Slike/Adobe Express - file.png"> </a> 
@@ -59,7 +59,7 @@
               <a href="../html/ponudaDana.html">PONUDA DANA</a>
             </div>
              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <img src="../Slike/more.png">
+              <img id="padajuciMeniIcon" src="../Slike/more.png">
             </a> 
         </div> 
 
@@ -79,66 +79,8 @@
 
         <div id="Omotac">
             <div id="Tekst">
-                <p> 
-                    Pizza je jedno od najpoznatijih jela na svetu, a njena istorija seže hiljadama 
-                    godina unazad. Koreni pizze mogu se pratiti do antičke Grčke i Rima, gde su ljudi 
-                    pekli ravne hlebove i premazivali ih maslinovim uljem, začinima i drugim jednostavnim
-                    dodacima. Međutim, moderna pizza kakvu poznajemo danas potiče iz Napulja, Italija, 
-                    tokom 18. i 19. veka. U to vreme, siromašni stanovnici Napulja razvili su recept za
-                    jeftino, hranljivo jelo koje se sastojalo od tankog testa prekrivenog paradajzom, 
-                    maslinovim uljem, sirom i bosiljkom.
-                    <br><br>
-                    Jedan od ključnih trenutaka u istoriji pizze dogodio se 1889. godine, kada je kuvar 
-                    Rafaele Esposito pripremio "pizzu Margherita" u čast kraljice Margarite od Savojske. 
-                    Njegova kreacija, ukrašena paradajzom, mocarelom i bosiljkom, simbolizovala je boje 
-                    italijanske zastave i stekla veliku popularnost. Ubrzo, pizza je postala omiljeno 
-                    jelo ne samo u Italiji već i širom sveta.
-                    <br><br>
-                    Tokom 20. veka, italijanski imigranti doneli su pizzu u Ameriku, gde je stekla 
-                    ogromnu popularnost i doživela brojne inovacije, poput čikaške deep-dish pizze i 
-                    njujorške tanke kore. Danas, pizza dolazi u bezbroj varijanti i prilagođava se 
-                    ukusima različitih kultura. Ipak, njena suština ostaje ista – jednostavno, ukusno 
-                    i univerzalno jelo koje okuplja ljude za stolom, bilo da je pripremana u 
-                    tradicionalnim pećima na drva ili naručena za kućnu dostavu.
-                </p>
-            </div>
-            <div id="slika">
-                <img src="../Slike/pngtree-modern-kitchen-food-boxed-cheese-lunch-pizza-png-image_9048155.png">
-            </div>
-        </div>
-
-        <div id="OmotacZaDrugiDeo">
-            <div id="slika">
-                <img src="../Slike/ai-generated-delicious-pepperoni-pizza-with-melted-cheese-png-fotor-bg-remover-20250126193214.png" alt="">
-            </div>
-            <div id="Tekst">
-                <p>Pizza je postala jedno od omiljenih jela u Srbiji, 
-                    prilagođeno ukusima domaćih potrošača. Iako pizza ima svoje poreklo u Italiji, 
-                    u Srbiju je stigla tokom druge polovine 20. veka i od tada se razvila u različitim 
-                    pravcima. Prva pica mesta otvorena su u većim gradovima, poput Beograda, gde su 
-                    ljudi imali priliku da probaju tradicionalne italijanske ukuse. Međutim, kako je 
-                    popularnost rasla, pizza je prilagođena lokalnim preferencijama, uključujući bogate 
-                    prelive i domaće sastojke.
-                    <br><br>
-                    U Srbiji se danas može pronaći širok spektar vrsta pizza. Tradicionalne varijante, 
-                    kao što su Margarita i Capricciosa, često su na meniju, ali se vrlo brzo prilagodio 
-                    trend stavljanja dodataka kao što su pečenica, kulen, šunka, kačkavalj i pavlaka. 
-                    Jedna od specifičnih varijanti je "srpska pizza", koja uključuje sastojke poput 
-                    urnebes salate, kajmaka ili domaće kobasice, što je čini jedinstvenom u odnosu na 
-                    klasične recepte.
-                    <br><br>
-                    Osim klasičnih italijanskih ukusa, popularne su i specijalne vrste pizza, poput 
-                    vegetarijanske, morske (sa plodovima mora) i pica sa četiri vrste sira. Fast food 
-                    pizzerije često nude i opciju jumbo pizza, koje su idealne za porodična ili društvena okupljanja. 
-                    Takođe, popularnost pica na parče (pizza cut) raste, posebno među mladima koji žele brz obrok 
-                    u pokretu.
-                    <br><br>
-                    Jedan zanimljiv trend u Srbiji je i domaća priprema pizza, gde se koristi 
-                    lokalno testo, domaći paradajz sos i razni prelivni sastojci po želji. 
-                    Sve više restorana nudi pizze pečene u tradicionalnim pećima na drva, što 
-                    dodatno obogaćuje ukus i donosi autentičan doživljaj. Danas je pizza u Srbiji 
-                    neizostavan deo jelovnika, bilo u restoranima, fast food kioscima ili porodičnim 
-                    kućama, gde svako može da uživa u ukusu koji mu najviše odgovara.</p>
+                <p id="tekst" >Ujnina Kujna Kikinda</p>
+                <h1 id="slogan">PORODICNI TRENUCI <br>ZACINJENI PIZZOM</h1>
             </div>
         </div>
 
