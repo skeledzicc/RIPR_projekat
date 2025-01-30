@@ -32,11 +32,6 @@
     font-family: Roboto, serif;
     font-size: 30px;
 }
-.baner p{
-    color: black;
-    font-family: Roboto, serif;
-    font-size: 20px;
-}
 
 .Tabela1{
     margin-top: 20px;
@@ -61,24 +56,51 @@
 #slikaTabela{
     width: 80%; 
 }
-#tekstIstorija{
-    display: block;
-    margin-top: 35px;
-    max-width: 100%;
-    padding: 15px;
-    font-family: Roboto, sans-serif;
+
+#istorija{
+    text-decoration: underline;
+    color: black;
+    margin-left: 47%;
+    font-size: 18px;
+}
+
+#team h2{
+    margin-top: 40px;
     text-align: center;
-    justify-content: center;
 }
-
-#tekstIstorija h3{
-    font-size: 20px;
-}
-
-#tekstIstorija p{
-    padding-left: 10%;
-    padding-right: 10%;
+.team-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-top: 20px;
-    font-size: 16px;
+    padding-bottom: 50px;
 }
-
+.team-card {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.team-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.team-card h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+.team-card p {
+    font-size: 0.9em;
+    color: #666;
+}
+#galerija{
+    color: #333;
+    font-size: 30px;
+    padding-bottom: 50px;
+    margin-left: 45%;
+}

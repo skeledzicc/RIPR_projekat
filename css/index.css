@@ -1,6 +1,6 @@
 #Omotac{
     max-width: 100%;
-    min-height: 80vh;
+    min-height: 80vh; 
     background-image: url('../Slike/ivan-torres-MQUqbmszGGM-unsplash.jpg');
     background-attachment: fixed;
     background-position: center;
@@ -15,8 +15,7 @@
     font-family: Roboto, sans-serif;
     text-align: left;
     background-color: rgba(0,0,0,0.3);
-    width: 40%;
-    height: 80vh;
+    height: 90vh;
 }
 
 #tekst{
@@ -28,11 +27,47 @@
     margin-left: 15px;
 }
 
+#ikonicatt{
+    width: 30px;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 25px;
+}
+
+#telefon{
+    font-family: Roboto, sans-serif;
+    font-size: 45px;
+    margin-left: 15%;
+    margin-top: -45px;
+}
+
+#dugme {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 0;
+    margin-left: 10%;
+    background-color:transparent;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 2px solid white;
+}
+a #dugme{
+    color: white;
+}
+a #dugme:visited{
+    color: beige;
+}
+#dugme:hover {
+    background-color: white;
+    color: black;
+}
 
 footer{
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #244970;
+    background-color: #183553;
     color: wheat;
     justify-content: center;
     gap: 20px;
@@ -56,21 +91,35 @@ footer img{
     margin-left: -540px;
 }
 
+@media only screen and (min-width: 1200px){
+    #Tekst{
+        color: rgb(167, 143, 37);
+        font-family: Roboto, sans-serif;
+        text-align: left;
+        background-color: rgba(0,0,0,0.3);
+        width: 40%;
+        height: 90vh;
+    }
+}
 
 @media only screen and (max-width: 700px){
-    #slika{
-        display: none;
-    }
+    
     #Omotac{
-        grid-template-columns: 1fr;
-    }
-    #OmotacZaDrugiDeo{
-        grid-template-columns: 1fr;
-        padding: 0;
+        width: 100vh;
     }
     #Tekst{
+        width: 100vh;
+        color:rgb(204, 175, 44);
+    }
+
+    #ikonicatt{
+        margin-left: 5%;
+    }
+
+    .dugme{
         display: flex;
-        justify-content: center;
+        width: 160px;
+        margin-left: 3%;
     }
 
     footer{
@@ -92,5 +141,25 @@ footer img{
         margin: 0;
         display: flex;
         justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    #Omotac{
+        width: 100%;
+    }
+    #Tekst{
+        width: 50vh;
+        color:rgb(204, 175, 44);
+    }
+
+    #ikonicatt{
+        margin-left: 5%;
+    }
+
+    .dugme{
+        display: flex;
+        width: 160px;
+        margin-left: 3%;
     }
 }
