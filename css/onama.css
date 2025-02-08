@@ -104,3 +104,37 @@
     padding-bottom: 50px;
     margin-left: 45%;
 }
+
+@media only screen and (max-width: 700px){
+    .baner h2{
+        text-align: center;
+    }
+    .Tabela1{
+        margin-left: 12%;
+    }
+    #kolonaSlika{
+        display: none;
+    }
+    #istorija{
+        margin-left: 40%;
+    }
+    #galerija{
+        margin-left: 30%;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1000px ){
+    .Tabela1{
+        margin-left: 10%;
+    }
+    #kolonaSlika{
+        display: none;
+    }
+    #istorija{
+        margin-left: 45%;
+    }
+    #galerija{
+        margin-left: 40%;
+    }
+}
+
