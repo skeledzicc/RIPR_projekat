@@ -1,0 +1,65 @@
+body{
+    background: #7a3237;
+}
+
+#nazad{
+    position: absolute;
+    left: 5px;
+    top: 60px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Lobster,sans-serif;
+}
+
+p{
+    text-align: center;
+}
+#uvod{
+    margin-top: 50px;
+    text-align: center;
+    color: antiquewhite;
+    font-family: Raleway, Roboto, sans-serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.stavka{
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    padding-right: 0;
+    padding-left: 0;
+}
+.stavka:hover{
+    background:antiquewhite;
+    transition: background-color 0.3s ease;
+}
+.stavka:hover #naziv{
+    color: #7a3237;
+}
+.stavka:hover #opis{
+    color: #7a3237;
+}
+.stavka:hover #cena{
+    color: #7a3237;
+}
+#naziv{
+    color: antiquewhite;
+    font-family: Lobster, Roboto, sans-serif;
+    font-size: 50px;
+    color: rgb(245, 191, 110);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+#opis{
+    color: bisque;
+    font-size: 20px;
+    font-family: Raleway ,Roboto, sans-serif;
+}
+#cena{
+    font-size: 30px;
+    color: rgb(236, 198, 72);
+    font-family: Lobster, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}

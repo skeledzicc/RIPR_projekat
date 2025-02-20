@@ -1,0 +1,47 @@
+#p{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: bisque;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 50px;
+}
+#jelovnik{
+    width: 100%;
+    height: 91.5vh;
+    background: #7a3237 ;
+}
+.stavka{
+    width: 100%;
+    text-align: center;
+    background: #7a3237 ;
+    padding: 30px;
+    padding-right: 0;
+    padding-left: 0;
+    flex-grow: 1;
+}
+.stavka:hover {
+    background: antiquewhite;
+    transition: background-color 0.3s ease;
+}
+.stavka:hover #opcija{
+    color: #7a3237;
+}
+.stavka:hover p{
+    color: #7a3237;
+}
+
+#opcija{
+    color: antiquewhite;
+    font-family: Lobster, Roboto, sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.stavka > p{
+    color: bisque;
+    font-family: Raleway, Roboto, sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
