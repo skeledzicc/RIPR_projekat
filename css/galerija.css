@@ -64,7 +64,7 @@
 }
 
 #nazad{
-    position: absolute;
+    position: static;
     left: 5px;
     top: 15px;
     padding: 10px;
