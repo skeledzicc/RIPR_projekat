@@ -1,4 +1,4 @@
-.fotografije{
+/* .fotografije{
     display: flex;
     justify-content: center;
     margin-top: 100px;
@@ -95,4 +95,69 @@
         margin: 0;
     }
     
+} */
+
+
+/* wrapper */
+.fotografije {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+/* glide */
+.glide {
+  position: relative;
+}
+
+/* slide */
+.glide__slide {
+  border-radius: 16px;
+  overflow: hidden;
+  transform: scale(0.9);
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  opacity: 0.5;
+}
+
+.glide__slide img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+/* AKTIVNI slide */
+.glide__slide--active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* strelice */
+.glide__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.glide__arrow--left {
+  left: -20px;
+}
+
+.glide__arrow--right {
+  right: -20px;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .glide__slide img {
+    height: 260px;
+  }
 }
